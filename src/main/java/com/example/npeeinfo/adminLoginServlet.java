@@ -24,9 +24,9 @@ public class adminLoginServlet extends HttpServlet {
         try{
             try{
                 Class.forName("org.postgresql.Driver");
-                String sourceURL="jdbc:postgresql://127.0.0.1:5432/neppinfo";
-                String user = "zjutuser";
-                String password ="Indeepside123";
+                String sourceURL="jdbc:postgresql:<URL>";
+                String user = "<username>";
+                String password ="<passwd>";
 
                 System.out.println("admin_connecting.");
                 adminConn = DriverManager.getConnection(sourceURL,user,password);
