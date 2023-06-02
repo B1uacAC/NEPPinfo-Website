@@ -25,9 +25,9 @@ public class HelloServlet extends HttpServlet implements ServletContextListener 
        super.init();
        try{
            Class.forName("org.postgresql.Driver");
-           String sourceURL="jdbc:postgresql://127.0.0.1:5432/neppinfo";
-           String user = "zjutuser";
-           String passwd ="Indeepside123";
+           String sourceURL="jdbc:postgresql:<URL>";
+           String user = "<username>";
+           String passwd ="<password>";
 
            System.out.println("connecting.");
            conn = DriverManager.getConnection(sourceURL,user,passwd);
