@@ -1,0 +1,128 @@
+
+.choose-container{
+  width: 100%;
+  margin-bottom: 30px;
+
+
+}
+.choose-container h1{
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #42454d;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+.search-container{
+  width: 95%;
+  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 20px;
+}
+
+
+.uni-search {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.uni-search form {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  margin: 0;
+}
+
+.uni-search input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.uni-search button[type="submit"] {
+  padding: 10px 20px ;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+.uni-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: grey  2px;
+  margin-top: 15px;
+
+}
+.university{
+  position: relative;
+  left: 5%;
+  display: flex;
+  align-items: center;
+  width: 90%;
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.university img{
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.uni-information{
+  flex: 1;
+  text-align: left;
+}
+.uni-information h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.uni-information p {
+  font-size: 14px;
+  color: #555;
+}
+.university:hover {
+  background-color: #f0f0f0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.data-container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.show-data {
+  width: 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.show-data .chart-container {
+  height: 400px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,136 @@
+html,body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+}
+.container {
+    width:100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.admin-title{
+width: 100%;
+    height: auto;
+}
+.main-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 95%;
+    height: 98%;
+    margin-top: 14px;
+    display: flex;
+    border-radius: 13px;
+    background-color: #ffffff;
+    box-shadow: 3px 5px 5px rgba(28, 28, 28, 0.3);
+}
+.side-bar-wrapper{
+ width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.side-bar{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.side-bar-title{
+width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.side-bar-title i {
+    color: #0894ec;
+    text-align: center;
+}
+.side-bar-content{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   border-radius: 10px;
+
+}
+.side-bar-option{
+    width: 80%;
+    font-size: 15px;
+   border-top: 2px;
+    margin-bottom: 8px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px ;
+
+
+}
+.side-bar-option:hover{
+    color: white;
+    background-color: #0894ec;
+}
+.side-bar-option-active{
+    color: white;
+    background-color: #0894ec;
+}
+
+
+.side-bar-option div div{
+    font-family: "PingFang SC";
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 5px;
+
+}
+.option-main{
+    width: 80%;
+    display: flex;
+    margin-left: 20px;
+
+}
+.option-left{
+    width: 8%;
+    display: flex;
+    justify-content: center;
+}
+.option-right{
+  width: auto;
+    text-align: left;
+}
+.side-bar-option div div i{
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.menu{
+    font-size: 28px;
+    font-family: "Impact";
+}
+.manage-container{
+width: 77%;
+    height: 100%;
+    background-color: #dedddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

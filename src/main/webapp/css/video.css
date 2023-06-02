@@ -1,0 +1,43 @@
+.video-container {
+    text-align: center;
+    position: relative;
+    margin: 20px;
+}
+
+.video-title {
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: rgb(241, 241, 241);
+    text-shadow: 4px 4px 8px rgba(82, 79, 79, 0.55);
+}
+
+.video-content {
+    display: inline-block;
+    width: 80%;
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+}
+
+.video-content iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.video-container:hover .video-overlay {
+    opacity: 1;
+}

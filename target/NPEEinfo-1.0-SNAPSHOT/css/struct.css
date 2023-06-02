@@ -1,0 +1,157 @@
+html,
+body{
+    width: 100%;
+    margin:0;
+    padding: 0;
+    font: 14px/1.8 "Helvetica Neue",Helvetica,"PingFang SC","Microsoft YaHei","Hiragino Sans GB","WenQuanYi Micro Hei",Arial,sans-serif;
+}
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 6vh;
+    line-height: 10px;
+
+    background: linear-gradient(to right, #0563c9, #03e0ad);;
+    text-align: center;
+    align-items: center;
+    display: flex;
+
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: black;
+}
+.guidance-wrapper{
+    width: 85%;
+    border-right: #ffffff 2px dashed;
+    text-align: center;
+    align-items: center;
+}
+.guidance{
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    border: 3px;
+    position: relative;
+    left:5%;
+}
+.user-content{
+    width: 15%;
+    font-size: smaller;
+    padding: 1vh;
+    text-align: center;
+    position: relative;
+
+}
+
+
+
+
+
+
+.logo {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 5px;
+    text-align: left;
+    display: flex;
+    border-bottom: 1px solid #ffffff;
+    border-top: 2px solid #dedddd;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    width: 20%;
+}
+
+.logo-accent {
+    color: #0075d0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.logo-content{
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+   font-family: "BM Jua";
+    color: rgba(82, 79, 79, 0.55);
+    position: relative;
+    bottom: 3px;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    color: #666;
+    text-align: center;
+    border-top: 5px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-top: 5px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+    flex-basis: 33.33%;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 5px;
+}
+
+.social-links a {
+    color: #666;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #333;
+}
+
+.user-content span{
+    color:white;
+    font-weight: bolder;
+}
+
+
